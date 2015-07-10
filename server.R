@@ -3,6 +3,7 @@ library(ggplot2);
 library(plyr);
 library(Cairo);
 
+load('dat.RData')
 load('gdat.RData')
 
 shinyServer(function(input, output) {
